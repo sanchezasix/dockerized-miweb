@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+			<title>COMPES</title>
+            <meta http-equiv="content-type"content="text/html; charset=UTF-8"/>
+            <link rel="stylesheet" href="index.css"/>
+	</head>
+
+	<body>
+		
+        <div class="header">
+            <header><h1 class="margen2">Componentes España</h1></header>
+        </div>
+        
+        <div>
+                <nav id="menua">
+                    <a href="componentes.html">Componentes</a>
+                    <a href="ordenadores.html">Ordenadores</a>
+                    <a href="perifericos.html">Perifericos</a>
+                    <a href="index.html" style="float:right">Pagina Principal</a>
+                </nav>
+        </div>
+    
+        
+        <div>
+		  <header>
+			 <h1 style="margin: 10px">Registro</h1>
+		  </header>
+		</div>
+        
+        <div>
+            
+            <form name="contacto" action="mailto:sanchezsanzvgk@gmail.com" method="get">
+                <fieldset>
+                    <legend>Informacion personal</legend>
+                    Nombre <input type="text" name="nombre" required/><br>
+                    Apellidos<input type="text" name="apellidos" max="40" required/><br>
+                    Direccion<input type="text" name="direccion" max="60" required/><br>
+                    Poblacion<input type="text" name="poblacion" required/><br>
+                    Correo electronico: <input type="email" name="email" autocomplete="off" required/><br>
+                    Telefono<input type="number" name="telefono"/><br>
+                    Fecha de nacimiento<input type="date" name="fechanac"/><br>
+                    Sexo<br>
+                    <input type="radio" name="hombre"/>Hombre<br>
+                    <input type="radio" name="mujer"/>Mujer<br>
+                    <input type="radio" name="otros"/>Otros<br>
+                </fieldset>
+                <fieldset>
+                    <legend>Contraseña</legend>
+                    Contraseña<input type="password" name="psw1" required/><br>
+                    Volver a escribir la contrasenya<input type="password" name="psw2" required/><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Informacion professional</legend>
+                    Nombre de la empresa<input type="text" name="nempresa"/><br>
+                    Web de la empresa<input type="url" name="wempresa" max="60"/><br>
+                    Sectors<br>
+                    <input type="checkbox" name="sector1" value="trans"/>Transporte<br>
+                    <input type="checkbox" name="sector2" value="inf"/>Informatica<br>
+                    <input type="checkbox" name="sector3" value="elect"/>Electronica<br>
+                    
+                </fieldset>
+                <fieldset>
+                    <legend>Mandar informacion</legend>
+                    <input type="submit" value="Mandar"/><br>
+                    Gracias por ponerse registrarse en Componentes España.<br>
+                    Saludos<br>
+                </fieldset>
+            </form>
+        
+        </div>
+    </body>
+</html>
